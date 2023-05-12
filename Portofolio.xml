@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<link rel="stylesheet" href="xsl/Portofolio.xsl">
+
+<index>
+    <portofolio>
+        <header>
+            <titol>Biografia de Josep Roldan</titol>
+            <curs>ASIX-DAW</curs>
+        </header>
+        <body>
+            <titolB>En aquesta pagina web veurem el que he fet durant el primer any del superior de ASIX-DAW</titolB>
+        </body>
+        <footer>
+        
+        </footer>
+    </portofolio>
+</index>
