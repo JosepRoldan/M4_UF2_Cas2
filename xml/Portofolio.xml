@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<link rel="stylesheet" href="/xsl/Portofolio.xsl">
+<?xml-stylesheet type="text/xsl" href="/xsl/Portofolio.xsl"?>
 
 <index>
     <portofolio>
@@ -7,11 +7,14 @@
             <titol>Biografia de Josep Roldan</titol>
             <curs>ASIX-DAW</curs>
         </header>
+
         <body>
             <titolB>En aquesta pagina web veurem el que he fet durant el primer any del superior de ASIX-DAW</titolB>
         </body>
+        
         <footer>
-            <imatge>/arxius/INSMontsia.png</imatge>
+            <foto>/arxius/INSMontsia.png</foto>
         </footer>
+    
     </portofolio>
 </index>

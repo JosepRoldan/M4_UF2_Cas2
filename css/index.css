@@ -17,3 +17,12 @@ header {
 .kkk{
     width: 100%;
 }
+
+footer{
+    position: static;
+}
+
+.foto-footer{
+    width: 160px;
+    height: 55px;
+}
