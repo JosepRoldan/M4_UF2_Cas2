@@ -1,12 +1,11 @@
-<!DOCTYPE html>
-<html lang="cat">
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<link rel="stylesheet" href="/css/index.css">
 <?xml version="1.0" encoding="utf-8"?>
-    <xsl:template match="/index/portofolio/">
+<xsl:template match="/index/portofolio/">
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+   <html> 
     <head>
         <title>Bio de J. Roldan</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="/css/index.css">
 
     </head>
     <body>
@@ -33,6 +32,6 @@
             <div><xsl:value-of select="footer" /></div>
         </footer>
     </body>
-</xsl:template>
-</xsl:stylesheet>
 </html>
+</xsl:stylesheet>
+</xsl:template>
