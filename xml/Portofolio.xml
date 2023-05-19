@@ -12,6 +12,8 @@
             <titolB>En aquesta pagina web veurem el que he fet durant el primer any del superior de ASIX-DAW</titolB>
                 <treballs>
                     <cv>https://github.com/JosepRoldan/M4_UF2_Cas2/blob/main/arxius/CV.png</cv>
+                    <pagina>https://github.com/JosepRoldan/M4_UF2_Cas2/blob/main/arxius/image.png</pagina>
+                    <sql></sql>
                     
                 </treballs>
         </body>
@@ -20,3 +22,5 @@
     
     </portofolio>
 </index>
+
+<!--https://dbdiagram.io/d/644770066b3194705124382c-->
