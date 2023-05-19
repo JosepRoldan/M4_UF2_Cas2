@@ -14,11 +14,16 @@ header {
     display: flex;
 }
 
-.pagina
-.sql
-.cv{
-    width: 30%;
-    height: 30%;
+img{
+    width: 15%;
+    height: 15%;
+    border-radius: 15%;
+    filter: blur(1px);
+}
+
+.fotos {
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 footer{

@@ -7,18 +7,15 @@
             <titol>Biografia de Josep Roldan</titol>
             <curs>ASIX-DAW</curs>
         </header>
-
         <body>
             <titolB>En aquesta pagina web veurem alguns treballs que he fet durant el primer any del superior de ASIX-DAW</titolB>
-                <treballs>
-                    <cv>https://github.com/JosepRoldan/M4_UF2_Cas2/blob/main/arxius/CV.png</cv>
-                    <pagina>https://github.com/JosepRoldan/M4_UF2_Cas2/blob/main/arxius/image.png</pagina>
-                    <sql>https://github.com/JosepRoldan/M4_UF2_Cas2/blob/main/arxius/DB.png</sql>
-                </treballs>
+            <treballs>
+                <cv>Curriculum Vitae</cv>
+                <pagina>Pagina web html</pagina>
+                <sql>Base de dades</sql>
+            </treballs>
         </body>
-        
         <footer>1A ASIX-DAW 2022-2023</footer>
-    
     </portofolio>
 </index>
 
