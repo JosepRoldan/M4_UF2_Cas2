@@ -12,25 +12,52 @@
 header {
     justify-content: space-between;
     display: flex;
+    background-color:#0f0f0f;
+    color: #ffffff;
 }
 
 img{
-    width: 15%;
-    height: 15%;
+    width: 50%;
+    height: 45%;
     border-radius: 15%;
     filter: blur(1px);
 }
 
+body {
+    font-size: large;
+    background-color: #dfffff;
+}
+
 .fotos {
+    justify-content: space-between;
+    display: flex;
     margin-left: 5%;
     margin-right: 5%;
 }
 
 footer{
-    position: static;
+    position: fixed;
+    bottom: 0;
 }
 
 .foto-footer{
     width: 160px;
     height: 55px;
+}
+
+nav a{
+    color: white;
+    margin: 10%;
+}
+
+nav a:hover{
+    color: grey;
+}
+
+.navegador{
+    width: 100%;
+    color:white;
+    justify-content: space-between;
+    display: flex;
+    background-color: #000000;
 }
