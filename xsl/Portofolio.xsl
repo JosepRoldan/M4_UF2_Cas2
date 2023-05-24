@@ -20,12 +20,24 @@
                 <div class="navegador">
                     <nav>
                     <a href="Portofolio.xml" class="nav-a">Inici</a>  
-                    
                     <a href="Treballs.xml" class="nav a">Treballs</a>
                     </nav>
                 </div>
                 <br />
+
+                <table>
+                    <tr>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+
+                </table>
+
+                <br />
                 <xsl:value-of select="index/portofolio/body/titolB" />
+                <div class="info">
                 <div class="fotos">
                 
                     <figure><a href="/M4_UF2_Cas2/pagines-extra/indexCV.html">
@@ -46,6 +58,7 @@
                     <figcaption><xsl:value-of select="index/portofolio/body/treballs/sql" /></figcaption>
                     </figure>
 
+                </div>
                 </div>
                 <footer>
                     <div style="width:100%; text-align:center;">

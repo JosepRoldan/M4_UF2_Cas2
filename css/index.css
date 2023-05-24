@@ -25,6 +25,7 @@ img{
 
 body {
     font-size: large;
+    align-items: center;
     background-color: #dfffff;
 }
 
@@ -36,7 +37,7 @@ body {
 }
 
 footer{
-    position: fixed;
+    position: static;
     bottom: 0;
 }
 
@@ -58,6 +59,12 @@ nav a:hover{
     width: 100%;
     color:white;
     justify-content: space-between;
-    display: flex;
+    text-align: center;
     background-color: #000000;
+}
+
+.info{
+    height: 100%;
+    align-items: center;
+    align-content: center;
 }
