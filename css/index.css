@@ -62,3 +62,10 @@ nav a:hover{
     align-items: center;
     align-content: center;
 }
+
+.taula{
+    margin: auto;
+    display: flex;
+    padding: 2%;
+    justify-content: center;
+}

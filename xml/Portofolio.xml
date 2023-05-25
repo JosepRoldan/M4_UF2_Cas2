@@ -9,10 +9,10 @@
         </header>
         <body>
             <presentacio>
-                <info>Nom: Josep Roldan Pagador</info>
-                <info>Data Naixement: 16/08/04</info>
-                <info>Localitat: Deltebre, Jesus i Maria</info>
-                <info>Actualment Cursant: CFGS ASIX-DAW</info>
+                <Nom>Nom: Josep Roldan Pagador</Nom>
+                <Data>Data Naixement: 16/08/04</Data>
+                <Local>Localitat: Deltebre, Jesus i Maria</Local>
+                <Curs>Actualment Cursant: CFGS ASIX-DAW</Curs>
             </presentacio>
             <titolB>En aquesta pagina web veurem alguns treballs que he fet durant el primer any del superior de ASIX-DAW</titolB>
             <treballs>
@@ -29,5 +29,3 @@
         <footer>1A ASIX-DAW 2022-2023</footer>
     </portofolio>
 </index>
-
-<!--https://dbdiagram.io/d/644770066b3194705124382c-->

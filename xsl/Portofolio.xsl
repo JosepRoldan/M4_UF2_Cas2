@@ -24,35 +24,35 @@
                     </nav>
                 </div>
                 <br />
-
-                <table>
-                    <tr>
-                        <td ><img style="width:10%; height:10%;" src="https://raw.githubusercontent.com/JosepRoldan/M4_UF2_Cas2/main/arxius/IMG_20210120_122019.jpg"/></td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                    </tr>
-
-                </table>
-
+                
+                <div class="taula">
+                    <img style="width:10%; height:10%;" src="https://raw.githubusercontent.com/JosepRoldan/M4_UF2_Cas2/main/arxius/IMG_20210120_122019.jpg"/>
+                    <table>
+                        <tr><td><xsl:value-of select="index/portofolio/body/presentacio/Nom" /></td></tr>
+                        <tr><td><xsl:value-of select="index/portofolio/body/presentacio/Data" /></td></tr>
+                        <tr><td><xsl:value-of select="index/portofolio/body/presentacio/Local" /></td></tr>
+                        <tr><td><xsl:value-of select="index/portofolio/body/presentacio/Curs" /></td></tr>
+                    </table>
+                </div>
                 <br />
-                <xsl:value-of select="index/portofolio/body/titolB" />
+                <p style="text-align:center;"><xsl:value-of select="index/portofolio/body/titolB" /></p>
+                <br />
                 <div class="info">
                 <div class="fotos">
                 
-                    <figure><a href="/M4_UF2_Cas2/pagines-extra/indexCV.html">
+                    <figure><a href="/M4_UF2_Cas2/pagines-extra/indexCV.html" target="_blank">
                     <img style="width: 50%; height: 45%; border-radius: 15%; filter: blur(1px);" src="https://raw.githubusercontent.com/JosepRoldan/M4_UF2_Cas2/main/arxius/CV.png"></img>
                     </a>
                     <figcaption><xsl:value-of select="index/portofolio/body/treballs/cv" /></figcaption>
                     </figure>
                 
-                    <figure><a href="https://ebreenbicleta.cat/">
+                    <figure><a href="https://ebreenbicleta.cat/" target="_blank">
                     <img style="width: 50%; height: 45%; border-radius: 15%; filter: blur(1px);" src="https://raw.githubusercontent.com/JosepRoldan/M4_UF2_Cas2/main/arxius/image.png" />
                     </a>
                     <figcaption><xsl:value-of select="index/portofolio/body/treballs/pagina" /></figcaption>
                     </figure>
 
-                    <figure><a href="/M4_UF2_Cas2/pagines-extra/indexSQL.html">
+                    <figure><a href="https://dbdiagram.io/d/644770066b3194705124382c" target="_blank">
                     <img style="width: 50%; height: 45%; border-radius: 15%; filter: blur(1px);" src="https://raw.githubusercontent.com/JosepRoldan/M4_UF2_Cas2/main/arxius/DB.png" />
                     </a>
                     <figcaption><xsl:value-of select="index/portofolio/body/treballs/sql" /></figcaption>
