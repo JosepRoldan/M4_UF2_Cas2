@@ -8,7 +8,12 @@
             <curs>ASIX-DAW</curs>
         </header>
         <body>
-            
+            <presentacio>
+                <info>Nom: Josep Roldan Pagador</info>
+                <info>Data Naixement: 16/08/04</info>
+                <info>Localitat: Deltebre, Jesus i Maria</info>
+                <info>Actualment Cursant: CFGS ASIX-DAW</info>
+            </presentacio>
             <titolB>En aquesta pagina web veurem alguns treballs que he fet durant el primer any del superior de ASIX-DAW</titolB>
             <treballs>
                 <cv>Curriculum Vitae</cv>
@@ -18,7 +23,7 @@
             <descripcio>
                 <descCV>Per començar tenim el CV que vaig fer per anar de Erasmus, degut a uns problemes no vaig poder anar encara que m'haguessen escollit per anar-hi.</descCV>
                 <descBicleta>En la materia de M04 - Llenguatge de marque i sistemes de gestio d'informació vam aprendre a fer una pagina web amb html i muntar-la a un hosting on-line gracies a aquell treball soc capaç de muntar aquesta mateixa pagina feta amb html, css, xml i xsl.</descBicleta>
-                <descDB></descDB>    
+                <descSQL></descSQL>    
             </descripcio>
         </body>
         <footer>1A ASIX-DAW 2022-2023</footer>

@@ -16,17 +16,11 @@ header {
     color: #ffffff;
 }
 
-img{
-    width: 50%;
-    height: 45%;
-    border-radius: 15%;
-    filter: blur(1px);
-}
-
 body {
     font-size: large;
     align-items: center;
     background-color: #dfffff;
+    height: 100%;
 }
 
 .fotos {
@@ -64,7 +58,7 @@ nav a:hover{
 }
 
 .info{
-    height: 100%;
+    height: auto;
     align-items: center;
     align-content: center;
 }

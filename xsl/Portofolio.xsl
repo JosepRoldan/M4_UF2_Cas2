@@ -27,7 +27,7 @@
 
                 <table>
                     <tr>
-                        <td></td>
+                        <td ><img style="width:10%; height:10%;" src="https://raw.githubusercontent.com/JosepRoldan/M4_UF2_Cas2/main/arxius/IMG_20210120_122019.jpg"/></td>
                     </tr>
                     <tr>
                         <td></td>
@@ -41,19 +41,19 @@
                 <div class="fotos">
                 
                     <figure><a href="/M4_UF2_Cas2/pagines-extra/indexCV.html">
-                    <img src="https://raw.githubusercontent.com/JosepRoldan/M4_UF2_Cas2/main/arxius/CV.png"></img>
+                    <img style="width: 50%; height: 45%; border-radius: 15%; filter: blur(1px);" src="https://raw.githubusercontent.com/JosepRoldan/M4_UF2_Cas2/main/arxius/CV.png"></img>
                     </a>
                     <figcaption><xsl:value-of select="index/portofolio/body/treballs/cv" /></figcaption>
                     </figure>
                 
                     <figure><a href="https://ebreenbicleta.cat/">
-                    <img src="https://raw.githubusercontent.com/JosepRoldan/M4_UF2_Cas2/main/arxius/image.png" />
+                    <img style="width: 50%; height: 45%; border-radius: 15%; filter: blur(1px);" src="https://raw.githubusercontent.com/JosepRoldan/M4_UF2_Cas2/main/arxius/image.png" />
                     </a>
                     <figcaption><xsl:value-of select="index/portofolio/body/treballs/pagina" /></figcaption>
                     </figure>
 
                     <figure><a href="/M4_UF2_Cas2/pagines-extra/indexSQL.html">
-                    <img src="https://raw.githubusercontent.com/JosepRoldan/M4_UF2_Cas2/main/arxius/DB.png" />
+                    <img style="width: 50%; height: 45%; border-radius: 15%; filter: blur(1px);" src="https://raw.githubusercontent.com/JosepRoldan/M4_UF2_Cas2/main/arxius/DB.png" />
                     </a>
                     <figcaption><xsl:value-of select="index/portofolio/body/treballs/sql" /></figcaption>
                     </figure>
