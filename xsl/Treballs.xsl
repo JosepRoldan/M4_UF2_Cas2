@@ -5,7 +5,8 @@
             <head>
                 <title>Bio de J. Roldan</title>
                 <meta charset="UTF-8" />
-                <link href="/M4_UF2_Cas2/css/index.css" rel="stylesheet"/>
+                <link rel="stylesheet" href="/M4_UF2_Cas2/css/index.css" />
+                <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
             </head>
             <body>
                 <header>
@@ -30,12 +31,8 @@
                 <h3>Pagina web html</h3>
                 <xsl:value-of select="index/portofolio/body/descripcio/descBicleta" />
                 <h3>Base de dades</h3>
-                <xsl:value-of select="index/portofolio/body/descripcio/descCV" />
-                <footer>
-                    <div>
-                        <xsl:value-of select="index/portofolio/footer" />
-                    </div>
-                </footer>
+                <xsl:value-of select="index/portofolio/body/descripcio/descDB" />
+                
             </body>
         </html>
     </xsl:template>
