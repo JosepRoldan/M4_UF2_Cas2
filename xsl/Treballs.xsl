@@ -5,7 +5,7 @@
             <head>
                 <title>Bio de J. Roldan</title>
                 <meta charset="UTF-8" />
-                <link rel="stylesheet" href="/M4_UF2_Cas2/css/index.css" />
+                <link rel="stylesheet" href="/css/index.css" />
                 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
             </head>
             <body>
@@ -19,8 +19,8 @@
                 </header>
                 <div class="navegador">
                     <nav>
-                    <a href="/M4_UF2_Cas2/Portofolio.xml" class="nav-a">Inici</a>  
-                    <a href="/M4_UF2_Cas2/xml/Treballs.xml" class="nav a">Treballs</a>
+                    <a href="/Portofolio.xml" class="nav-a">Inici</a>  
+                    <a href="/xml/Treballs.xml" class="nav a">Treballs</a>
                     </nav>
                 </div>
                 <br />
