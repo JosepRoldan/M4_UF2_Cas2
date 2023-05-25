@@ -18,9 +18,8 @@
                 </header>
                 <div class="navegador">
                     <nav>
-                    <a href="Portofolio.xml" class="nav-a">Inici</a>
-                    
-                    <a href="Treballs.xml" class="nav a">Treballs</a>
+                    <a href="/M4_UF2_Cas2/Portofolio.xml" class="nav-a">Inici</a>  
+                    <a href="/M4_UF2_Cas2/xml/Treballs.xml" class="nav a">Treballs</a>
                     </nav>
                 </div>
                 <br />
