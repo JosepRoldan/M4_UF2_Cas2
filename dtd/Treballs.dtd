@@ -1,0 +1,15 @@
+<!ELEMENT index (portofolio)>
+<!ELEMENT portofolio (header, body)>
+<!ELEMENT header (titol, curs)>
+<!ELEMENT titol (#PCDATA)>
+<!ELEMENT curs (#PCDATA)>
+<!ELEMENT body (titolB, treballs, descripcio)>
+<!ELEMENT titolB (#PCDATA)>
+<!ELEMENT treballs (cv, pagina, sql)>
+<!ELEMENT cv (#PCDATA)>
+<!ELEMENT pagina (#PCDATA)>
+<!ELEMENT sql (#PCDATA)>
+<!ELEMENT descripcio (descCV, descBicleta, descDB)>
+<!ELEMENT descCV (#PCDATA)>
+<!ELEMENT descBicleta (#PCDATA)>
+<!ELEMENT descDB (#PCDATA)>

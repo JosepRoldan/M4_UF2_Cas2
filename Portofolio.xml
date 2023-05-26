@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="/xsl/Portofolio.xsl"?>
-
+<!DOCTYPE index SYSTEM "/dtd/Portofolio.dtd">
 <index>
     <portofolio>
         <header>
@@ -23,7 +23,7 @@
             <descripcio>
                 <descCV>Per començar tenim el CV que vaig fer per anar de Erasmus, degut a uns problemes no vaig poder anar encara que m'haguessen escollit per anar-hi.</descCV>
                 <descBicleta>En la materia de M04 - Llenguatge de marque i sistemes de gestio d'informació vam aprendre a fer una pagina web amb html i muntar-la a un hosting on-line gracies a aquell treball soc capaç de muntar aquesta mateixa pagina feta amb html, css, xml i xsl.</descBicleta>
-                <descSQL></descSQL>    
+                <descSQL/>    
             </descripcio>
         </body>
         <footer>1A ASIX-DAW 2022-2023</footer>
